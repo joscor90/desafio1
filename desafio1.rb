@@ -19,3 +19,15 @@ print "#{a2}\n"
 a3 = a.select {|e| e > 5}
 
 print "#{a3}\n"
+
+#4) Usanfo inject sumar todos los valores del arreglo
+
+a4 = a.inject {|suma, e| suma += e}
+
+print "#{a4}\n"
+
+#5) Contar la cantidad de valores menores a 5 en el arreglo usando .count
+
+a5 = a.count {|e| e < 5}
+
+print "#{a5}\n"
